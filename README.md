@@ -11,10 +11,11 @@ Teach kids how to use inkscape. Take a non-svg background image of sunrise and m
 
 ## What tools we'll use
 - Zoom in
-- Layers (docked window)
+- Layers (docked window). (Ctrl+Shift+L)
 - Change a rectangles color. Maybe adjust it's Opacity (transparency)
 - Modifying a path using `Union` and `Difference`. And change object -> path
 - `Create rectangles and squares`, `Edit paths by nodes`, and `Bezier curves and straight lines` tools
+- Color eyedrop (F7). To fix mistakes, will need to copy a color
 
 Nothing more than this. This is more than enough
 
@@ -84,3 +85,12 @@ We will repeat this many times. To remove pieces from the sky filter rectangle u
 ## Repeat many times
 
 Teacher cuts out two pieces from the sky filter rectangle. Afterwards the student takes over. The teacher then takes the student thru the process step by step. Letting the student do all the clicking and/or typing. Continue until the student is confident enough to do the rest. 10-20 cuts from the sky filter rectangle should be enough
+
+## Undo mistakes
+
+Even at 400% zoom, mistakes will be made. Cutting to little isn't a problem. What if we cut too much. An option is undo (Ctrl+z). Another option is making a patch (and hope no one notices)
+
+1. Make a `2nd shape` over the portion which got removed too much
+1. From the `2nd shape`, remove it's border color. Crtl+Shift+F opens the Fill and Stroke (docked) window. In the stroke paint tab, click `X` (no paint). This will turn off the border
+1. Using the eye dropper tool (F7) take the color from the sky rectangle. Then change the `2nd shapes` color to be the same
+1. Select both objects. Click on `Edit path by nodes` (F2), click `2nd shape`, Shift+Left Click sky filter rectangle. Now both objects should be selected. From the menu choose Path->Union. The patch should now have been applied. The missing piece is no longer missing. Phew ;-)
