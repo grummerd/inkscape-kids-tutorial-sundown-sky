@@ -34,9 +34,11 @@ Find this at the bottom right corner of the app window
 
 ### Layers (docked window) and Opacity
 
+![Layers window](src/layers-window.png "Need to create a new layer and can adjust Opacity")
+
 Open using either:
 
-- From menu Layers->Layers
+- From menu, Layers->Layers
 
 - Ctrl+Shift+L
 
