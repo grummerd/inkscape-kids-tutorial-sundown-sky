@@ -46,8 +46,10 @@ Working in a layer keeps the other layers safe
 
 Opacity and transparency means the same thing, how much can see through the top layer. We left the Opacity at 100%
 
-To adjust the Opacity:
+To adjust the Opacity
+
 1. Click to select the layer
+
 1. Move Opacity slider to desired amount
 
 ### Modifying a path
