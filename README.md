@@ -10,12 +10,22 @@ Teach kids how to use inkscape. Take a non-svg background image of sunrise and m
 - Keep doing this until we cut out: the palm tree and everything below the waves. But not the clouds or anything in hidden layers
 
 ## What tools we'll use
+
+![inkscape toolbar](src/inkscape-tutorial-sundown-inkscape-toolbar.png "We are using these inkscape tools") 
+
+* **Eye dropper**  When we cut out too much, used to grab sky color. Can then make a patch of the same color
+
+* **Draw Bezier curves** Used to make patches
+
+* **Create rectangles** Used to make the sky (filter) rectangle 
+
+* **Edit paths by nodes** Used to see both the sky and patches nodes. Think of this as `nodes mode`
+
+### Other tools
 - Zoom in
 - Layers (docked window). (Ctrl+Shift+L)
 - Change a rectangles color. Maybe adjust it's Opacity (transparency)
 - Modifying a path using `Union` and `Difference`. And change object -> path
-- `Create rectangles and squares`, `Edit paths by nodes`, and `Bezier curves and straight lines` tools
-- Color eyedrop (F7). To fix mistakes, will need to copy a color
 
 Nothing more than this. This is more than enough
 
