@@ -46,6 +46,10 @@ Working in a layer keeps the other layers safe
 
 Opacity and transparency means the same thing, how much can see through the top layer. We left the Opacity at 100%
 
+To adjust the Opacity:
+1. Click to select the layer
+1. Move Opacity slider to desired amount
+
 ### Modifying a path
 
 - Use (Path) `Difference` between two objects to cut piece out of the first object. We make a patch. And use the patch to tear a that piece out of the sky rectangle
