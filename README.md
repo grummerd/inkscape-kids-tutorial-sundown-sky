@@ -26,25 +26,38 @@ Teach kids how to use inkscape. Take a non-svg background image of sunrise and m
 
 * **Edit paths by nodes** Used to see both the sky and patches nodes. Think of this as `nodes mode`
 
-### Other tools
-
-- Adjust zoom and color
+### Adjust zoom and color
 
 ![zoom and color](src/zoom-and-color-bar.png "Adjust zoom and color")
 
 Find this at the bottom right corner of the app window
 
-- Layers (docked window). (Ctrl+Shift+L)
- 
-- Change a rectangles color. Maybe adjust it's Opacity (transparency)
-- Modifying a path using `Union` and `Difference`. And change object -> path
+### Layers (docked window) and Opacity
 
-Nothing more than this. This is more than enough
+Open using either:
+
+- From menu Layers->Layers
+
+- Ctrl+Shift+L
+
+Working in a layer keeps the other layers safe
+
+Opacity and transparency means the same thing, how much can see through the top layer. We left the Opacity at 100%
+
+### Modifying a path
+
+- Use (Path) `Difference` between two objects to cut piece out of the first object. We make a patch. And use the patch to tear a that piece out of the sky rectangle
+- Use (Path) `Union` to make repairs. When we cut too much out
+
+
+### Working with paths
+
+Change object -> path. From menu, Path->Object to Path. We are mainly working with path, not an object. Only exception, when needing to [fix a mistake](https://github.com/grummerd/inkscape-kids-tutorial-sundown-sky#undo-mistakes "fixing mistakes")
 
 ## Duration
 A kid should be able to complete this tutorial, with the assistance of a teacher, within 30 minutes to an 1 hour. Teacher should show a kid once or twice and then let them repeat cutting out pieces from the rectangle. Don't worry if the kid can't complete it to perfection.
 
-##What's the point??
+## What's the point??
 **The point is to burn into muscle memory how to:**
 
 - combine two objects
