@@ -1,6 +1,11 @@
 # inkscape-kids-tutorial-sundown-sky
 
-Teach kids how to use inkscape. Take a non-svg background image of sunrise and make it sundown
+Teach kids how to use inkscape. Take a non-svg background image of sunrise and make it sunset
+
+![sunrise](fetitch-jobs-desert-isle-sunrise.png "Start as a sunrise") 
+
+![sunset](fetitch-jobs-desert-isle-sunset.png "Finish as a sunset")
+
 
 ## How we'll change sunrise to sunset
 
