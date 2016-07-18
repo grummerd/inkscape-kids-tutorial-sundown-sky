@@ -34,8 +34,6 @@ Find this at the bottom right corner of the app window
 
 ### Layers (docked window) and Opacity
 
-![Layers window](src/layers-window.png "Need to create a new layer and can adjust Opacity")
-
 Open using either:
 
 - From menu, Layers->Layers
@@ -43,6 +41,8 @@ Open using either:
 - Ctrl+Shift+L
 
 Working in a layer keeps the other layers safe
+
+![Layers window](src/layers-window.png "Need to create a new layer and can adjust Opacity")
 
 Opacity and transparency means the same thing, how much can see through the top layer. We left the Opacity at 100%
 
