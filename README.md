@@ -27,8 +27,15 @@ Teach kids how to use inkscape. Take a non-svg background image of sunrise and m
 * **Edit paths by nodes** Used to see both the sky and patches nodes. Think of this as `nodes mode`
 
 ### Other tools
-- Zoom in
+
+- Adjust zoom and color
+
+![zoom and color](src/zoom-and-color-bar.png "Adjust zoom and color")
+
+Find this at the bottom right corner of the app window
+
 - Layers (docked window). (Ctrl+Shift+L)
+ 
 - Change a rectangles color. Maybe adjust it's Opacity (transparency)
 - Modifying a path using `Union` and `Difference`. And change object -> path
 
