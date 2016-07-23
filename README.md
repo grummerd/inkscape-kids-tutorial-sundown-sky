@@ -96,6 +96,10 @@ These are the layers that we start with. Will add another layer. The new layer w
 
 1. Click on `desert island` layer. Add a new layer (click plus `+` icon). Name it `Sky filter -- Red Haze`. Place it `Above current`
 
+![Added one layer](src/layers-window.png "Sky filter -- Red Haze layer added")
+
+**Check** Does your layers look exactly like this?
+
 ## Create Sky filter
 
 1. Add new [`recentanges and squares` object](#what-tools-well-use "Rectange and squares tool icon"), cover the entire sky area and a little below the ocean waves
