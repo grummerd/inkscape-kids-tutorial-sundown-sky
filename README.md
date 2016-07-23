@@ -52,15 +52,14 @@ To adjust the Opacity
 
 1. Move Opacity slider to desired amount
 
-### Modifying a path
+### Cutting out pieces and fixing mistakes
+
+![inkscape path menu](src/inkscape-tutorial-path-menu.png "Inkscape Path tools we will use") 
 
 - Use (Path) `Difference` between two objects to cut piece out of the first object. We make a patch. And use the patch to tear a that piece out of the sky rectangle
 - Use (Path) `Union` to make repairs. When we cut too much out
 
-
-### Working with paths
-
-Change object -> path. From menu, Path->Object to Path. We are mainly working with path, not an object. Only exception, when needing to [fix a mistake](https://github.com/grummerd/inkscape-kids-tutorial-sundown-sky#undo-mistakes "fixing mistakes")
+- `Object to Path` We are mainly working with path, not objects. Only exception, when needing to [fix a mistake](https://github.com/grummerd/inkscape-kids-tutorial-sundown-sky#undo-mistakes "fixing mistakes")
 
 ## Duration
 A kid should be able to complete this tutorial, with the assistance of a teacher, within 30 minutes to an 1 hour. Teacher should show a kid once or twice and then let them repeat cutting out pieces from the rectangle. Don't worry if the kid can't complete it to perfection.
