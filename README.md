@@ -68,7 +68,7 @@ A kid should be able to complete this tutorial, with the assistance of a teacher
 **The point is to burn into muscle memory how to:**
 
 - combine two objects
-- Use a 2nd object to cut pieces from the another object
+- Use a 2nd object to cut pieces from another object
 
 ## Why is it important to teach kids computers?
 
@@ -86,7 +86,7 @@ Makes a filter/mask which can be adjusted. Used to darken the layer beneath
 
 ## Layers setup
 
-1. Open `Layers` docked window. Layers->Layers or Shift+Crtl+L
+1. Open [`Layers`](#layers-docked-window-and-opacity "Layers protect from ruining previous work") docked window. Layers->Layers or Shift+Crtl+L
 
 1. From `pencil` layer on up, click the eyeball icon to hide those layers
 
@@ -94,17 +94,17 @@ Makes a filter/mask which can be adjusted. Used to darken the layer beneath
 
 ## Create Sky filter
 
-1. Add new `recentanges and squares` object, cover the entire sky area and a little below the ocean waves
+1. Add new [`recentanges and squares` object](#what-tools-well-use "Rectange and squares tool icon"), cover the entire sky area and a little below the ocean waves
 
     ```
 From here on out, we'll call this rectange, `sky filter`
     ```
 
-1. Change the color of `sky filter` to #D40000 (a dark red). This will give a red hazy color to the sky
+1. [Change the color](#adjust-zoom-and-color "Changing the color of the sky") of `sky filter` to #D40000 (a dark red). This will give a red hazy color to the sky
 
-1. From Layers docked window, adjust the Opacity % as desired. We used 100
+1. From Layers docked window, [adjust the Opacity](#layers-docked-window-and-opacity "Change sky layer transparency") % as desired. We used 100
 
-1. Convert sky filter rectange from an object to a path. Path->Object to Path
+1. Convert sky filter rectange from an [object to a path](#cutting-out-pieces-and-fixing-mistakes). Path->Object to Path
 
 ## Removing portions of `Sky filter`
 
