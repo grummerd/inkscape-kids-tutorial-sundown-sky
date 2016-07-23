@@ -56,10 +56,10 @@ To adjust the Opacity
 
 ![inkscape path menu](src/inkscape-tutorial-path-menu.png "Inkscape Path tools we will use") 
 
-- Use (Path) `Difference` between two objects to cut piece out of the first object. We make a patch. And use the patch to tear a that piece out of the sky rectangle
-- Use (Path) `Union` to make repairs. When we cut too much out
+- Use (Path) `Difference` between two objects to cut piece out of the first object. We make a patch. And use the patch to tear a piece out of the sky rectangle
+- Oh no! Cut too much! Use (Path) `Union` to make repairs
 
-- `Object to Path` We are mainly working with path, not objects. Only exception, when needing to [fix a mistake](https://github.com/grummerd/inkscape-kids-tutorial-sundown-sky#undo-mistakes "fixing mistakes")
+- `Object to Path` We are mainly working with path, not objects. Only exception, when needing to [fix a mistake](#undo-mistakes "fixing mistakes")
 
 ## Duration
 A kid should be able to complete this tutorial, with the assistance of a teacher, within 30 minutes to an 1 hour. Teacher should show a kid once or twice and then let them repeat cutting out pieces from the rectangle. Don't worry if the kid can't complete it to perfection.
@@ -89,6 +89,10 @@ Makes a filter/mask which can be adjusted. Used to darken the layer beneath
 1. Open [`Layers`](#layers-docked-window-and-opacity "Layers protect from ruining previous work") docked window. Layers->Layers or Shift+Crtl+L
 
 1. From `pencil` layer on up, click the eyeball icon to hide those layers
+
+![which layers to hide](src/inkscape-tutorial-sundown-layers-most-turned-off.png "pencil layer on up are hidden")
+
+These are the layers that we start with. Will add another layer. The new layer will be where we will do all our work.
 
 1. Click on `desert island` layer. Add a new layer (click plus `+` icon). Name it `Sky filter -- Red Haze`. Place it `Above current`
 
