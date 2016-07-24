@@ -146,13 +146,29 @@ A piece of the sky filter rectangle should now be gone. The 2nd shape is gone
 
 ## Repeat many times
 
-Teacher cuts out two pieces from the sky filter rectangle. Afterwards the student takes over. The teacher then takes the student thru the process step by step. Letting the student do all the clicking and/or typing. Continue until the student is confident enough to do the rest. 10-20 cuts from the sky filter rectangle should be enough
+Teacher cuts out two pieces from the `Sky filter`. Afterwards the student takes over. The teacher then takes the student thru the process step by step. Letting the student do all the clicking and/or typing. Continue until the student is confident enough to do the rest. 10-20 cuts from the `Sky filter` should be enough
+
+When completed will look like this ...
+
+![Sky filter sculpted to perfection](src/fetitch-jobs-desert-isle-sunset.png "completed sky filter")
 
 ## Undo mistakes
 
-Even at 400% zoom, mistakes will be made. Cutting to little isn't a problem. What if we cut too much. An option is undo (Ctrl+z). Another option is making a patch (and hope no one notices)
+Even at 400% Zoom, mistakes will be made. Cutting too little isn't a problem. What if too much is cut? An option is undo (Ctrl+z) and try again. Another option is making a patch (and hope no one notices)
 
-1. Make a `2nd shape` over the portion which got removed too much
-1. From the `2nd shape`, remove it's border color. Crtl+Shift+F opens the Fill and Stroke (docked) window. In the stroke paint tab, click `X` (no paint). This will turn off the border
-1. Using the eye dropper tool (F7) take the color from the sky rectangle. Then change the `2nd shapes` color to be the same
-1. Select both objects. Click on `Edit path by nodes` (F2), click `2nd shape`, Shift+Left Click sky filter rectangle. Now both objects should be selected. From the menu choose Path->Union. The patch should now have been applied. The missing piece is no longer missing. Phew ;-)
+![Opps cut too much](src/inkscape-tutorial-sundown-opps-cut-too-much.png "the bit of blue sky needs to be fixed")
+
+> Opps! Cut waaaaay too much
+
+1. Make a `2nd shape`, using the `Draw Bezier curves` tool, over the portion which got removed too much. At this point, 2nd shape should be colorless. If there is a stroke (border) turn the stroke off (Shift+Ctrl+F to open Fill and Stroke window)
+1. Using the eye dropper tool (F7) take the color from the `Sky filter`. Then change the `2nd shapes` color to be the same
+
+![Cut too much patch](src/inkscape-tutorial-sundown-cut-too-much-patch.png "Here is the patch. Clearly visible with border on")
+
+> `2nd Shape` patch
+
+3.. **Select both objects and apply patch** Click on `Edit path by nodes` (F2), click `2nd shape`, Shift+Left Click sky filter rectangle. Now both objects should be selected. From the menu, choose `Path->Union`. The patch should now have been applied. The missing piece of the `Sky filter` is no longer missing. Phew ;-)
+
+![Patch applied](src/inkscape-tutorial-sundown-patch-applied.png "Blue is no longer shining through the red haze")
+
+> Patch Applied!
