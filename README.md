@@ -106,9 +106,9 @@ These are the layers that we start with. Will add another layer. The new layer w
  
 ![draw a rectangle shape](src/inkscape-tutorial-sky-filter-square.png "Rectangle does not need to be perfect")
 
-    ```
+```
 From here on out, we'll call this rectangle, `sky filter`
-    ```
+```
 
 1. [Change the color](#adjust-zoom-and-color "Changing the color of the sky") of `sky filter` rectangle to #D40000 (a dark red). This will give a red hazy color to the sky
 
@@ -126,7 +126,11 @@ To remove pieces from the sky filter rectangle until the palm tree, beneath the 
 
 ### Draw a 2nd shape
 
-1. Using `Draw Bezier curves and straight lines` tool. We want to take a chunk out of below the ocean waves. Draw a small modest shape using the `Draw Bezier curves` tool. So now you'll have two objects: a rectangle covering the entire sky and a much smaller rectangle. We'll call this small object, `2nd shape`
+1. Is the `Zoom` 400% or more? If not, adjust it to desired amount
+
+1. Using `Draw Bezier curves` tool. We want to take a chunk out of below the ocean waves. Draw a small modest shape using the `Draw Bezier curves` tool. So now you'll have two objects: a rectangle covering the entire sky and a much smaller rectangle. We'll call this small object, `2nd shape`
+
+![2nd shape](src/inkscape-tutorial-sundown-2nd-shape.png "2nd shape is used to cut a sky filter piece away")
 
 ### Use 2nd shape to cut piece out of `sky filter`
 
@@ -134,9 +138,9 @@ To remove pieces from the sky filter rectangle until the palm tree, beneath the 
 
 1. Click on the `2nd shape`. Shift+left click on `sky filter` rectangle. From menu, Path->Difference
 
-    ```
-    A piece of the sky filter rectangle should now be gone. The 2nd shape is gone
-    ```
+```
+A piece of the sky filter rectangle should now be gone. The 2nd shape is gone
+```
 
 ## Repeat many times
 
