@@ -102,25 +102,31 @@ These are the layers that we start with. Will add another layer. The new layer w
 
 ## Create Sky filter
 
-1. Add new [`recentanges and squares` object](#what-tools-well-use "Rectange and squares tool icon"), cover the entire sky area and a little below the ocean waves
+1. We want to cover the entire sky and below the waves. [`recentanges and squares` tool](#what-tools-well-use "Rectange and squares tool icon") isn't intuitive on how to change it's color, so we will use the [`Draw Bezier curves tool`](#what-tools-well-use "Connect the nodes to make a rectangle") again. Click 4 times to make the shape of a rectangle. Does it cover the entire sky & the waves?! Should look similiar to this
+ 
+![draw a rectangle shape](src/inkscape-tutorial-sky-filter-square.png "Rectangle does not need to be perfect")
 
     ```
-From here on out, we'll call this rectange, `sky filter`
+From here on out, we'll call this rectangle, `sky filter`
     ```
 
-1. [Change the color](#adjust-zoom-and-color "Changing the color of the sky") of `sky filter` to #D40000 (a dark red). This will give a red hazy color to the sky
+1. [Change the color](#adjust-zoom-and-color "Changing the color of the sky") of `sky filter` rectangle to #D40000 (a dark red). This will give a red hazy color to the sky
 
-1. From Layers docked window, [adjust the Opacity](#layers-docked-window-and-opacity "Change sky layer transparency") % as desired. We used 100
+![Change the color](src/zoom-and-color-bar.png "Change color bar")
 
-1. Convert sky filter rectange from an [object to a path](#cutting-out-pieces-and-fixing-mistakes). Path->Object to Path
+1. From Layers docked window, [adjust the Opacity](#layers-docked-window-and-opacity "Change sky layer transparency") % as desired. We used 47.8
+
+1. Can adjust size of Sky filter rectangle using the Paths by nodes (F2) tool. 
+
+![Adjust sky filter rectangle size](src/inkscape-tutorial-sundown-inkscape-toolbar.png "inkscape tool bar")
 
 ## Removing portions of `Sky filter`
 
-We will repeat this many times. To remove pieces from the sky filter rectangle until the palm tree, beneath the waves, and the curves border are all removed 
+To remove pieces from the sky filter rectangle until the palm tree, beneath the waves, and the curves border are all cut away (removed). We will be repeating these steps many times
 
-### Draw the 2nd shape
+### Draw a 2nd shape
 
-1. Using `Draw Bezier curves and straight lines` tool. We want to take a chunk out of below the ocean waves. Draw a small modest shape using the Bezier curves tool. So now you'll have two objects: a rectangle covering the entire sky and a small shape. We'll call this small object, `2nd shape`
+1. Using `Draw Bezier curves and straight lines` tool. We want to take a chunk out of below the ocean waves. Draw a small modest shape using the `Draw Bezier curves` tool. So now you'll have two objects: a rectangle covering the entire sky and a much smaller rectangle. We'll call this small object, `2nd shape`
 
 ### Use 2nd shape to cut piece out of `sky filter`
 
