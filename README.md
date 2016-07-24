@@ -142,6 +142,8 @@ To remove pieces from the sky filter rectangle until the palm tree, beneath the 
 A piece of the sky filter rectangle should now be gone. The 2nd shape is gone
 ```
 
+![After chunk of sky filter removed](src/inkscape-tutorial-sundown-2nd-shape-cut-out.png "We cut out a piece of the sky filter")
+
 ## Repeat many times
 
 Teacher cuts out two pieces from the sky filter rectangle. Afterwards the student takes over. The teacher then takes the student thru the process step by step. Letting the student do all the clicking and/or typing. Continue until the student is confident enough to do the rest. 10-20 cuts from the sky filter rectangle should be enough
